@@ -1,0 +1,41 @@
+table ,th,td {
+ border:1px solid black
+}
+
+th {
+  text-align: left;
+}
+
+.employees
+{
+  padding-top:50px; 
+    
+    
+}
+.managers
+{
+    
+    padding-top:150px;
+    
+    
+}
+
+.hobbies
+{
+    padding-top: 150px;
+}
+
+.salary
+{
+    padding-top: 150px;
+    
+    
+}
+
+th , td{
+    border: none; 
+}
+
+h1 {
+  text-align: center;
+}

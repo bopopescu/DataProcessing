@@ -1,0 +1,32 @@
+{
+    "title": "An array of items",
+    "items": {
+        "title": "An object value",
+        "required": [
+            "HobbieName",
+            "MoneySpent" 
+        ],
+        "properties": {
+            "HobbieName": {
+                "title": "A string value",
+                "default": " ",
+                "pattern": "^(.*)$",
+                "examples": [
+                    "Rap"
+                ],
+                "$id": "#/items/properties/dept_name",
+                "type": "string"
+            },
+            "MoneySpent": {
+                "title": "An int value",
+                "default": " ",
+                "pattern": "^(.*)$",
+                "examples": [
+                    13
+                ],
+                "$id": "#/items/properties/salary",
+                "type": "integer"
+            }
+        }
+    }
+}

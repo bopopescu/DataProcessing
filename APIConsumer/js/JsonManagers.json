@@ -1,0 +1,43 @@
+{
+    "title": "An array of items",
+    "items": {
+        "title": "An object value",
+        "required": [
+            "dept_name",
+            "first_name",
+            "last_name" 
+        ],
+        "properties": {
+            "dept_name": {
+                "title": "A string value",
+                "default": " ",
+                "pattern": "^(.*)$",
+                "examples": [
+                    "IT"
+                ],
+                "$id": "#/items/properties/dept_name",
+                "type": "string"
+            },
+            "first_name": {
+                "title": "An string value",
+                "default": " ",
+                "pattern": "^(.*)$",
+                "examples": [
+                    "Jhon"
+                ],
+                "$id": "#/items/properties/first_name",
+                "type": "string"
+            },
+            "last_name": {
+                "title": "A string value",
+                "default": " ",
+                "pattern": "^(.*)$",
+                "examples": [
+                    "Fuego"
+                ],
+                "$id": "#/items/properties/last_name",
+                "type": "string"
+            }
+        }
+    }
+}
